@@ -36,6 +36,7 @@ Zalety:
   - Wsparcie dla Imenu oraz SpeedBar;
   - Opcje dostosowania do w³asnych potrzeb.
 
+%prep
 %setup -q
 
 %install
