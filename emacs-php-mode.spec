@@ -7,7 +7,7 @@ Summary:	The Emacs php-mode text editor for the X Window System
 Summary(de):	GNU Emacs php-mode
 Summary(es):	GNU Emacs php-mode
 Summary(fr):	GNU Emacs php-mode
-Summary(pl):	GNU Emacs php-mode - Kolorowanie sk³adni php
+Summary(pl):	GNU Emacs php-mode - Narzêdzia pomocnicze do PHP
 Summary(pt_BR):	GNU Emacs php-mode
 Summary(tr):	GNU Emacs php-mode
 Name:		emacs-el-%{_orig_name}
