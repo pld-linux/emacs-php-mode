@@ -36,7 +36,8 @@ Zalety:
   - Wsparcie dla Imenu oraz SpeedBar;
   - Opcje dostosowania do w³asnych potrzeb.
 
-%setup -q
+%prep -q
+%setup -q -T -c
 
 %install
 rm -rf $RPM_BUILD_ROOT
