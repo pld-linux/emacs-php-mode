@@ -17,7 +17,6 @@ License:	GPL v2
 Group:		Applications/Editors/Emacs
 Source0:	http://prdownloads.sourceforge.net/php-mode/%{_orig_name}-102.el
 URL:		http://php-mode.sf.net/
-BuildRequires:	sed
 Requires:	emacs-el = %{_emacs_version}
 Buildroot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -29,14 +28,14 @@ php-mode - An Emacs major mode for editing PHP code. Features:
   - Customization options.
 
 %description -l pl
-php-mode - rozszerzenie do Emacs'a u³atwiaj±ce edycjê plików php.
+php-mode - rozszerzenie do Emacsa u³atwiaj±ce edycjê plików php.
 Zalety:
-  - kolorowanie sk³adni i indexowanie;
+  - kolorowanie sk³adni i indeksowanie;
   - Przegl±danie dokumentów i szukanie funkcji;
   - Wsparcie dla Imenu oraz SpeedBar;
   - Opcje dostosowania do w³asnych potrzeb.
 
-%prep -q
+%prep
 %setup -q -T -c
 
 %install
@@ -46,7 +45,6 @@ install %{SOURCE0} $RPM_BUILD_ROOT%{_datadir}/emacs/%{_emacs_version}/lisp/progm
 
 %clean
 rm -rf $RPM_BUILD_ROOT
-
 
 %files
 %defattr(644,root,root,755)
