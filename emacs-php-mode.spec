@@ -17,7 +17,7 @@ License:	GPL v2
 Group:		Applications/Editors/Emacs
 Source0:	http://dl.sourceforge.net/php-mode/%{_orig_name}-102.el
 # Source0-md5:	bbf006aec2f76f8bb609d4314df3a065
-URL:		http://php-mode.sf.net/
+URL:		http://php-mode.sourceforge.net/
 Requires:	emacs-el = %{_emacs_version}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
