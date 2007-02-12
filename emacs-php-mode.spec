@@ -4,12 +4,12 @@
 #%define		_pack_ver	%(echo %{_php_mode_ver} | sed -e "s/\.//g")
 
 Summary:	The Emacs php-mode text editor for the X Window System
-Summary(de.UTF-8):   GNU Emacs php-mode
-Summary(es.UTF-8):   GNU Emacs php-mode
-Summary(fr.UTF-8):   GNU Emacs php-mode
-Summary(pl.UTF-8):   GNU Emacs php-mode - Narzędzia pomocnicze do PHP
-Summary(pt_BR.UTF-8):   GNU Emacs php-mode
-Summary(tr.UTF-8):   GNU Emacs php-mode
+Summary(de.UTF-8):	GNU Emacs php-mode
+Summary(es.UTF-8):	GNU Emacs php-mode
+Summary(fr.UTF-8):	GNU Emacs php-mode
+Summary(pl.UTF-8):	GNU Emacs php-mode - Narzędzia pomocnicze do PHP
+Summary(pt_BR.UTF-8):	GNU Emacs php-mode
+Summary(tr.UTF-8):	GNU Emacs php-mode
 Name:		emacs-el-%{_orig_name}
 Version:	%{_php_mode_ver}
 Release:	1
