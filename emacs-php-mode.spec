@@ -4,12 +4,12 @@
 #%define		_pack_ver	%(echo %{_php_mode_ver} | sed -e "s/\.//g")
 
 Summary:	The Emacs php-mode text editor for the X Window System
-Summary(de):	GNU Emacs php-mode
-Summary(es):	GNU Emacs php-mode
-Summary(fr):	GNU Emacs php-mode
-Summary(pl):	GNU Emacs php-mode - Narzêdzia pomocnicze do PHP
-Summary(pt_BR):	GNU Emacs php-mode
-Summary(tr):	GNU Emacs php-mode
+Summary(de.UTF-8):   GNU Emacs php-mode
+Summary(es.UTF-8):   GNU Emacs php-mode
+Summary(fr.UTF-8):   GNU Emacs php-mode
+Summary(pl.UTF-8):   GNU Emacs php-mode - NarzÄ™dzia pomocnicze do PHP
+Summary(pt_BR.UTF-8):   GNU Emacs php-mode
+Summary(tr.UTF-8):   GNU Emacs php-mode
 Name:		emacs-el-%{_orig_name}
 Version:	%{_php_mode_ver}
 Release:	1
@@ -28,13 +28,13 @@ php-mode - An Emacs major mode for editing PHP code. Features:
   - Support for Imenu and SpeedBar;
   - Customization options.
 
-%description -l pl
-php-mode - rozszerzenie do Emacsa u³atwiaj±ce edycjê plików php.
+%description -l pl.UTF-8
+php-mode - rozszerzenie do Emacsa uÅ‚atwiajÄ…ce edycjÄ™ plikÃ³w php.
 Zalety:
-  - kolorowanie sk³adni i indeksowanie;
-  - Przegl±danie dokumentów i szukanie funkcji;
+  - kolorowanie skÅ‚adni i indeksowanie;
+  - PrzeglÄ…danie dokumentÃ³w i szukanie funkcji;
   - Wsparcie dla Imenu oraz SpeedBar;
-  - Opcje dostosowania do w³asnych potrzeb.
+  - Opcje dostosowania do wÅ‚asnych potrzeb.
 
 %prep
 %setup -q -T -c
